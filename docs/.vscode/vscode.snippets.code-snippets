@@ -1,0 +1,19 @@
+{
+	"Generate ADR": {
+		"prefix" : "adr",
+		"body":[
+			"---",
+            "id: ",
+            "title: ",
+            "status: ",
+            "---",
+            "",
+            "## Context",
+            "",
+            "## Decision",
+            "",
+            "## Consequences"
+		],
+		"description": "Architecture Decision Record Template"
+	}
+}
