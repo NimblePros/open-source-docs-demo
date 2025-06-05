@@ -1,7 +1,7 @@
 // See https://containers.dev/implementors/json_reference/ for configuration reference
 {
 	"name": "Open Source Documentation Demo",
-	"dockerFile": "dockerFile",
+	"dockerFile": "dockerfile",
     "forwardPorts": [4000, 35729],    // 4000 for Jekyll, 35729 for live reload
     "runArgs": ["--name","open_source_docs_demo_devcontainer"],
     "postStartCommand": "bundle install && bundle exec jekyll serve --baseurl='' --livereload --force_polling"
